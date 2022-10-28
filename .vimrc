@@ -30,3 +30,9 @@ packadd! matchit
 " idea下默认英文输入法 IdeaVimExtension插件
 set keep-english-in-normal " 在normal模式保持英文状态
 set keep-english-in-normal-and-restore-in-insert "  在normal模式保持英文状态,并在回到insert时恢复输入法到原来的状态
+
+" 禁用方向键盘, 养成良好习惯
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
